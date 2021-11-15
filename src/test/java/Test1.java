@@ -1,3 +1,4 @@
+import com.xiaoai.common.DataBaSeUtil;
 import com.xiaoai.common.DateAndTimeUtil;
 import com.xiaoai.common.FileOptionUtil;
 import com.xiaoai.common.RegexOptionUtil;
@@ -82,6 +83,11 @@ public class Test1 {
         File file = new File("D:\\tem2\\1716040507符金辉（405班级网站）"); //D:\Program_my\IntelliJ IDEA 2017.3.4
         FileOptionUtil fileOptionUtil = new FileOptionUtil();
         fileOptionUtil.printDir(file,0);
+    }
+
+    @Test
+    public void testDB(){
+        System.out.println(DataBaSeUtil.getConn());
     }
 
 }

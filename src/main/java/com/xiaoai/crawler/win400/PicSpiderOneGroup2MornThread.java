@@ -1,8 +1,6 @@
 package com.xiaoai.crawler.win400;
 import com.xiaoai.common.DateAndTimeUtil;
-import com.xiaoai.common.HttpOptionUtil;
 import com.xiaoai.common.RegexOptionUtil;
-import com.xiaoai.defaultsetting.DefaultConfigration;
 import com.xiaoai.oldcrawler.MyMethod;
 
 import java.util.ArrayList;
@@ -29,8 +27,8 @@ public class PicSpiderOneGroup2MornThread {
     private static String picaddr = ""; // 图片地址
 
 	public static void main(String[] args) {
+		// 定义线程池 5个
         ExecutorService executorService = Executors.newFixedThreadPool(5);
-
 
         Long starttime = DateAndTimeUtil.currentTimeMillis();//开始时间
 
@@ -75,13 +73,14 @@ public class PicSpiderOneGroup2MornThread {
             picaddr = regexOptionUtil.regexFirstResult(html,"http://pic1.win4000.com/pic/.{13,20}\\.jpg");//获取到图片地址
 			System.out.println("------"+picNamei+"-"+picaddr);
 			try {
+				// 从线程池获取线程执行任务
 				executorService.execute(new Runnable() {
                     @Override
                     public void run() {
                         try {
                             System.out.println("Thread:"+Thread.currentThread().getName());
                             Thread.sleep(500);
-//                            HttpOptionUtil.savePic(picaddr, DefaultConfigration.getDefaultHeads(),
+//                            HttpOptionUtil.savePic(picaddr, RequstHeadConfigration.getDefaultHeads(),
 //                                    "D://SpiderPic//meinv4//1//",groupName+picNamei,"jpg");//写入文件
                         } catch (Exception e) {
                             e.printStackTrace();

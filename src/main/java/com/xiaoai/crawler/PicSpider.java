@@ -47,7 +47,7 @@ public class PicSpider {
         for (String picurl : hrefList) {
             System.out.println(i+"--"+picurl);
             try {
-                HttpOptionUtil.savePic(picurl, heads,
+                HttpOptionUtil.saveFile(picurl, heads,
                         "D://tem2//xx", i+"","jpg");
                 System.out.println("----"+picurl+"已写入！");
                 Thread.sleep(1000);

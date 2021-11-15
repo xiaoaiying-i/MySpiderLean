@@ -30,7 +30,6 @@ public class HttpOptionUtil {
         }
     }
 
-
     public static String getHTML(String url) throws Exception {
         return getHTML(url,DEFAULT_METHOD,new HashMap<String, String>(),DEFAULT_ENCODE);
     }
@@ -78,7 +77,7 @@ public class HttpOptionUtil {
      * @param fileSuffix 文件后缀
      * @throws Exception
      */
-    public static void savePic(String targetUrl,Map<String,String> heads,
+    public static void saveFile(String targetUrl,Map<String,String> heads,
                                String savePath,String fileName, String fileSuffix) throws Exception{
         URL url = new URL(targetUrl);
         HttpURLConnection conn = (HttpURLConnection)url.openConnection();

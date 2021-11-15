@@ -12,8 +12,8 @@ import java.util.regex.Pattern;
  */
 public class RegexOptionUtil {
 
-    private Pattern pattern; // 定义正则样式模板，编译正则表达式
-    private Matcher matcher; // 创建一个匹配器，把模板传入
+    private static Pattern pattern; // 定义正则样式模板，编译正则表达式
+    private static Matcher matcher; // 创建一个匹配器，把模板传入
 
     /**
      * 正则匹配第一个结果返回
@@ -21,7 +21,7 @@ public class RegexOptionUtil {
      * @param regex
      * @return
      */
-    public  String regexFirstResult(String targetStr, String regex){
+    public static String regexFirstResult(String targetStr, String regex){
         pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(targetStr);
         if (matcher.find()) {
@@ -36,7 +36,7 @@ public class RegexOptionUtil {
      * @param regex
      * @return
      */
-    public  String regexLastResult(String targetStr, String regex){
+    public static String regexLastResult(String targetStr, String regex){
         pattern = Pattern.compile(regex);
         matcher = pattern.matcher(targetStr);
         String res = null;
@@ -52,7 +52,7 @@ public class RegexOptionUtil {
      * @param regex 正则表达式
      * @return 匹配结果集合
      */
-    public List<String> regexResultArr(String targetStr, String regex){
+    public static List<String> regexResultArr(String targetStr, String regex){
 
         pattern = Pattern.compile(regex); //正则模式编译
         matcher = pattern.matcher(targetStr);
@@ -64,6 +64,7 @@ public class RegexOptionUtil {
         return matchResults;
     }
 
-
-
+    public static String matchChinese(String context){
+        return  regexLastResult(context,"[\\u4e00-\\u9fa5]+");
+    }
 }

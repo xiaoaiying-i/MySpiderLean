@@ -1,5 +1,6 @@
 package com.xiaoai.common;
 
+import javax.swing.*;
 import java.io.*;
 import java.util.logging.Logger;
 
@@ -176,6 +177,11 @@ public class FileOptionUtil {
         }
     }
 
+    /**
+     * 遍历某目录下的所有目录
+     * @param file
+     * @param initDirHierarchy
+     */
     public void printDir(File file,int initDirHierarchy){
         File[] files = file.listFiles();
         for (File f:files){
@@ -190,5 +196,60 @@ public class FileOptionUtil {
                 printDir(f,initDirHierarchy+1);
             }
         }
+    }
+
+    /**
+     * 弹出框选择文件或路径获取选择的路径
+     * @param currentDirPath
+     * @return
+     */
+    public String chooseFilePath(String currentDirPath){
+        String filePath = null; // targe目录
+        JFileChooser fileChooser = new JFileChooser(currentDirPath);
+        fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        int returnVal = fileChooser.showOpenDialog(fileChooser);
+        if(returnVal == JFileChooser.APPROVE_OPTION){
+            filePath= fileChooser.getSelectedFile().getAbsolutePath();//这个就是你选择的文件夹的
+        }
+       return filePath;
+    }
+
+
+//    public static bufstreamToBuffer(String path){
+//
+//
+//    }
+
+
+    /**
+     * 通过文件路径直接修改文件名
+     *
+     * @param filePath    需要修改的文件的完整路径
+     * @param newFileName 需要修改的文件的名称
+     * @return
+     */
+    private String fixFileName(String filePath, String newFileName) {
+        File f = new File(filePath);
+        if (!f.exists()) { // 判断原文件是否存在（防止文件名冲突）
+            return null;
+        }
+        newFileName = newFileName.trim();
+        if ("".equals(newFileName) || newFileName == null) // 文件名不能为空
+            return null;
+        String newFilePath = null;
+        if (f.isDirectory()) { // 判断是否为文件夹
+            newFilePath = filePath.substring(0, filePath.lastIndexOf("/")) + "/" + newFileName;
+        } else {
+            newFilePath = filePath.substring(0, filePath.lastIndexOf("/")) + "/" + newFileName
+                    + filePath.substring(filePath.lastIndexOf("."));
+        }
+        File nf = new File(newFilePath);
+        try {
+            f.renameTo(nf); // 修改文件名
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+        return newFilePath;
     }
 }

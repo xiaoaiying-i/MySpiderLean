@@ -2,13 +2,11 @@ package com.xiaoai.crawler.win400;
 import com.xiaoai.common.DateAndTimeUtil;
 import com.xiaoai.common.HttpOptionUtil;
 import com.xiaoai.common.RegexOptionUtil;
-import com.xiaoai.defaultsetting.DefaultConfigration;
+import com.xiaoai.defaultsetting.RequstHeadConfigration;
 import com.xiaoai.oldcrawler.MyMethod;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * http://www.win4000.com/
@@ -70,7 +68,7 @@ public class PicSpiderOneGroup {
 			System.out.println("------"+picNamei+"-"+picaddr);
 			try {
 				System.out.println("Thread:"+Thread.currentThread().getName());
-				HttpOptionUtil.savePic(picaddr, DefaultConfigration.getDefaultHeads(),
+				HttpOptionUtil.saveFile(picaddr, RequstHeadConfigration.getHeads(),
 				"D://SpiderPic//meinv4//",groupName+picNamei,"jpg");//写入文件
 				System.out.println("------"+picNamei+"-"+picaddr+"已写入！");
 				Thread.sleep(500);

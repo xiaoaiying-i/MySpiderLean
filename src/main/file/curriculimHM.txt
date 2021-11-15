@@ -1,0 +1,44 @@
+<a href="//www.bilibili.com/video/av68811608" data-report="12" class="comment-jump-url" target="_blank">【面试必会】mysql数据库优化全剖析，mysql入门到精通</a>
+<a href="//www.bilibili.com/video/av81386804" data-report="36" class="comment-jump-url" target="_blank">java基础教程-4天快速入门oracle数据库</a>
+<a href="//www.bilibili.com/video/av68736927" data-report="11" class="comment-jump-url" target="_blank">深入Sharding-JDBC分库分表从入门到精通【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av73840600" data-report="19" class="comment-jump-url" target="_blank">2020年超系统的javaweb快速入门教程，javaweb免费视频教程全套【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av73840600" data-report="19" class="comment-jump-url" target="_blank">2020年超系统的javaweb快速入门教程，javaweb免费视频教程全套【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av37976701" data-report="5" class="comment-jump-url" target="_blank">利用jQuery+Ajax+HighCharts打造项目图表</a>
+<a href="//www.bilibili.com/video/av15657082" data-report="1" class="comment-jump-url" target="_blank">【黑马程序员】Ajax从零入门到精通（part 1）</a>
+<a href="//www.bilibili.com/video/av15866060" data-report="2" class="comment-jump-url" target="_blank">【黑马程序员】Ajax从零入门到精通（part 2 完结）</a>
+<a href="//www.bilibili.com/video/av76249419" data-report="26" class="comment-jump-url" target="_blank">前端基础必会教程-4个小时带你快速入门vue</a>
+<a href="//www.bilibili.com/video/av40455083" data-report="6" class="comment-jump-url" target="_blank">【WEB前端】28节课快速玩转微信小程序</a>
+<a href="//www.bilibili.com/video/av73840600" data-report="19" class="comment-jump-url" target="_blank">2020年超系统的javaweb快速入门教程，javaweb免费视频教程全套【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av70549061" data-report="15" class="comment-jump-url" target="_blank">java中级程序员必会的教程，解密JVM【黑马程序员出品】</a>
+<a href="//www.bilibili.com/video/av83826038" data-report="38" class="comment-jump-url" target="_blank">2020JAVA基础-深入系统的学习数据结构与算法</a>
+<a href="//www.bilibili.com/video/av78639604" data-report="31" class="comment-jump-url" target="_blank">让数据结构不再难懂，让算法不再难写</a>
+<a href="//www.bilibili.com/video/av52364221" data-report="7" class="comment-jump-url" target="_blank">2天吃透Maven项目管理工具</a>
+<a href="//www.bilibili.com/video/av73840600" data-report="19" class="comment-jump-url" target="_blank">2020年超系统的javaweb快速入门教程，javaweb免费视频教程全套【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av7959491" data-report="32" class="comment-jump-url" target="_blank">黑马程序员SVN视频教程</a>
+<a href="//www.bilibili.com/video/av75718460" data-report="24" class="comment-jump-url" target="_blank">PHP基础丨Git零基础入门到实战详解</a>
+<a href="//www.bilibili.com/video/av83089670" data-report="37" class="comment-jump-url" target="_blank">java教程手把手教你Jenkins从环境配置到项目开发</a>
+<a href="//www.bilibili.com/video/av7770852" data-report="29" class="comment-jump-url" target="_blank">黑马程序员Springmvc+Mybatis由浅入深全套视频教程day01</a>
+<a href="//www.bilibili.com/video/av69233006" data-report="14" class="comment-jump-url" target="_blank">java进阶全面学习Mybatis插件之Mybatis-Plus</a>
+<a href="//www.bilibili.com/video/av71980390" data-report="17" class="comment-jump-url" target="_blank">java进阶教程数据层全栈方案Spring Data高级应用</a>
+<a href="//www.bilibili.com/video/av70828462" data-report="16" class="comment-jump-url" target="_blank">【Java进阶教程】Spring高级之注解驱动开发详解</a>
+<a href="//www.bilibili.com/video/av74933720" data-report="23" class="comment-jump-url" target="_blank">中级程序员必会的高薪技能之快速入门Zookeeper+dubbo【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av77085442" data-report="28" class="comment-jump-url" target="_blank">Spring Cloud Alibaba Nacos配置中心与服务发现</a>
+<a href="//www.bilibili.com/video/av89898642" data-report="39" class="comment-jump-url" target="_blank">超全面讲解spring cloud Alibaba技术栈</a>
+<a href="//www.bilibili.com/video/av74127911" data-report="20" class="comment-jump-url" target="_blank">java基础4天从浅入深精通SpringCloud微服务架构</a>
+<a href="//www.bilibili.com/video/av80349807" data-report="33" class="comment-jump-url" target="_blank">java基础教程全面的深入学习Skywalking</a>
+<a href="//www.bilibili.com/video/av66702383" data-report="9" class="comment-jump-url" target="_blank">RocketMQ系统精讲，经受历年双十一狂欢节考验的分布式消息中间件</a>
+<a href="//www.bilibili.com/video/av71991051" data-report="18" class="comment-jump-url" target="_blank">Kafka深入探秘者来了，快速玩转分布式发布订阅消息系统</a>
+<a href="//www.bilibili.com/video/av68736927" data-report="11" class="comment-jump-url" target="_blank">深入Sharding-JDBC分库分表从入门到精通【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av76235738" data-report="25" class="comment-jump-url" target="_blank">【java基础教程】112节Redis入门到精通</a>
+<a href="//www.bilibili.com/video/av80450883" data-report="34" class="comment-jump-url" target="_blank">java必备基础教程-MongoDB基础入门到高级进阶</a>
+<a href="//www.bilibili.com/video/av67233983" data-report="10" class="comment-jump-url" target="_blank">java进阶教程Tomcat核心原理解析</a>
+<a href="//www.bilibili.com/video/av73840600" data-report="19" class="comment-jump-url" target="_blank">2020年超系统的javaweb快速入门教程，javaweb免费视频教程全套【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av23360560" data-report="3" class="comment-jump-url" target="_blank">黑马程序员-linux从入门到精通</a>
+<a href="//www.bilibili.com/video/av14184325" data-report="0" class="comment-jump-url" target="_blank">Python教程_600集Python从入门到精通教程（懂中文就能学会）</a>
+<a href="//www.bilibili.com/video/av69121091" data-report="13" class="comment-jump-url" target="_blank">【java教程】深入解析docker容器化技术</a>
+<a href="//www.bilibili.com/video/av66600360" data-report="8" class="comment-jump-url" target="_blank">elastic stack从入门到实践【快速掌握先进的搜索、数据收集、分析技术java进阶教程】</a>
+<a href="//www.bilibili.com/video/av77895717" data-report="30" class="comment-jump-url" target="_blank">超系统学习Lucene全文检索技术</a>
+<a href="//www.bilibili.com/video/av36062910" data-report="4" class="comment-jump-url" target="_blank">java教程之精品详解Quartz，企业中必会的技能【黑马程序员】</a>
+<a href="//www.bilibili.com/video/av74128695" data-report="21" class="comment-jump-url" target="_blank">轻松入门Apollo分布式配置中心-服务中间件【java基础进阶教程】</a>
+<a href="//www.bilibili.com/video/av74851468" data-report="22" class="comment-jump-url" target="_blank">java基础进阶-企业开发首选的安全框架Spring Security深入浅出</a>
+<a href="//www.bilibili.com/video/av7670054" data-report="27" class="comment-jump-url" target="_blank">黑马程序员Activiti工作流视频教程day01</a>
